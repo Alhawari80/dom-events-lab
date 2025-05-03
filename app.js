@@ -36,7 +36,7 @@ calculator.addEventListener('click', (event) => {
   }
   else if (event.target.classList.contains('equals')) {
     if (operator === '+') {
-      displyElement.innerText = Number(firstIntiger) + Number(secondIntiger);
+      displyElement.innerText = Number(firstIntiger) + Number(secondIntiger);//asked a friend about this alteration as it was just displaying the numbers not the result.
     }
     else if (operator === '-') {
       displyElement.innerText = firstIntiger - secondIntiger;
